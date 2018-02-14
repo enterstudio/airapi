@@ -21,7 +21,8 @@
     "bluebird": "^2.10.0",
     "cheerio": "*",
     "lodash": "*",
-    "request": "*"
+    "request": "*",
+    "hawk": "7.0.0"
   },
   "devDependencies": {},
   "license": "MIT"
