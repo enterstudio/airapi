@@ -4,7 +4,9 @@
   "description": "A JS wrapper for airbnb API",
   "author": "Si Pham (phamtrisi@gmail.com)",
   "scripts": {
-    "examples": "node ./examples/main.js"
+    "examples": "node ./examples/main.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "airbnb.js",
   "repository": {
@@ -21,8 +23,10 @@
     "bluebird": "^2.10.0",
     "cheerio": "*",
     "lodash": "*",
-    "request": "*"
+    "request": "*",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {},
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
